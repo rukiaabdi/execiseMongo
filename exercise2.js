@@ -1,4 +1,3 @@
-
 db.students.find({ age: { $gt: 22 } })
 
 db.students.find({ courses: "React" })
