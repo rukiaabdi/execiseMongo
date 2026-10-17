@@ -28,7 +28,7 @@ db.students.updateOne(
   { $set: { email: "amina2026@gmail.com" } }
 )
 
-db.students.find({ name: "Amina" })
+db.students.find({ name: "Qadra" })
 
 db.students.deleteOne({ name: "Mohamed" })
 
